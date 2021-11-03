@@ -1,0 +1,59 @@
+import React from "react"
+import { Typography, Box, Divider } from "@material-ui/core"
+import { Button, makeStyles } from "@material-ui/core"
+
+const MainContent = () => {
+    return (
+        <Box style={{ width: 800 }}>
+            <Typography
+                color="secondary"
+                variant="h1"
+                style={{ fontWeight: "bold" }}
+            >
+                EDUGUARDIAN
+            </Typography>
+            <Typography variant="h4" style={{ fontWeight: "bold" }}>
+                The content aggregator you wish you had before!
+            </Typography>
+            <Divider style={{ marginTop: 20, marginBottom: 20 }} />
+            <Typography style={{ fontSize: 18 }}>
+                EduGuardian hosts resources, covering several domains, all at
+                one place, and boasts of offering on-point roadmaps to learn
+                numerous trending technologies. Our aim is to provide top-notch
+                content from the best sources, allowing learners to study and
+                excel as Devs!
+            </Typography>
+            <Divider style={{ marginTop: 20, marginBottom: 20 }} />
+
+            <Box
+                style={{
+                    display: "flex",
+                }}
+            >
+                <Typography>
+                    <Button
+                        style={{
+                            color: "#333",
+                        }}
+                        color="secondary"
+                        variant="contained"
+                    >
+                        Resources
+                    </Button>
+                    <Button
+                        style={{
+                            marginLeft: 10,
+                            color: "white",
+                        }}
+                        color="primary"
+                        variant="outlined"
+                    >
+                        Roadmaps
+                    </Button>
+                </Typography>
+            </Box>
+        </Box>
+    )
+}
+
+export default MainContent
