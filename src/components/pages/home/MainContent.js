@@ -1,7 +1,7 @@
 import React from "react"
 import { Typography, Box, Divider } from "@material-ui/core"
 import { Button, makeStyles } from "@material-ui/core"
-
+import { Link } from "@material-ui/core"
 const MainContent = () => {
     return (
         <Box style={{ width: 800 }}>
@@ -37,6 +37,7 @@ const MainContent = () => {
                         }}
                         color="secondary"
                         variant="contained"
+                        href="/resources"
                     >
                         Resources
                     </Button>
@@ -47,6 +48,7 @@ const MainContent = () => {
                         }}
                         color="primary"
                         variant="outlined"
+                        href="/roadmaps"
                     >
                         Roadmaps
                     </Button>

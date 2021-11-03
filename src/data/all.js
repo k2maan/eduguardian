@@ -29,7 +29,7 @@ const allData = [
     {
         id: 11,
         imgPath:
-            "https://i1.sndcdn.com/avatars-000187997749-n2xz2w-t500x500.jpg ",
+            "https://www.inovex.de/wp-content/uploads/2021/04/training-python.png",
         name: "Python Docs",
         url: "https://docs.python.org/3/",
         domain: "Programming",

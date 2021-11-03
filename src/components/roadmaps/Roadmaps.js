@@ -53,7 +53,7 @@ export default function Roadmaps() {
                                         style={{ fontWeight: "bold" }}
                                         color="secondary"
                                     >
-                                        <NavButton />
+                                        <NavButton btnName="Python Programming" />
                                         <Switch>
                                             <Route
                                                 path="/python"
@@ -106,7 +106,14 @@ export default function Roadmaps() {
                                         style={{ fontWeight: "bold" }}
                                         color="secondary"
                                     >
-                                        Competitive Programming
+                                        <NavButton btnName="Competitive Programming" />
+                                        <Switch>
+                                            <Route
+                                                path="/python"
+                                                exact
+                                                component={Python}
+                                            />
+                                        </Switch>
                                     </Typography>
                                     <Typography
                                         variant="body2"
