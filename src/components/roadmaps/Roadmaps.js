@@ -10,6 +10,7 @@ import { Route } from "react-router"
 import { Switch } from "react-router-dom"
 // Roadmap pages
 import Python from "./roadmapComponents/Python"
+import CP from "./roadmapComponents/CP"
 import NavButton from "./NavButton"
 
 const useStyles = makeStyles({
@@ -53,7 +54,10 @@ export default function Roadmaps() {
                                         style={{ fontWeight: "bold" }}
                                         color="secondary"
                                     >
-                                        <NavButton btnName="Python Programming" />
+                                        <NavButton
+                                            btnName="Python Programming"
+                                            url="/python"
+                                        />
                                         <Switch>
                                             <Route
                                                 path="/python"
@@ -106,12 +110,15 @@ export default function Roadmaps() {
                                         style={{ fontWeight: "bold" }}
                                         color="secondary"
                                     >
-                                        <NavButton btnName="Competitive Programming" />
+                                        <NavButton
+                                            btnName="Competitive Programming"
+                                            url="/cp"
+                                        />
                                         <Switch>
                                             <Route
-                                                path="/python"
+                                                path="/cp"
                                                 exact
-                                                component={Python}
+                                                component={CP}
                                             />
                                         </Switch>
                                     </Typography>

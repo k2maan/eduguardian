@@ -1,5 +1,5 @@
 import React from "react"
-import { Typography, Box } from "@material-ui/core"
+import { Typography, Box, Button } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core/styles"
 import Card from "@material-ui/core/Card"
 import CardContent from "@material-ui/core/CardContent"
@@ -28,14 +28,14 @@ export default function SimpleCard() {
     const classes = useStyles()
 
     return (
-        <Box py={12} textAlign="center">
+        <Box py={8} textAlign="center">
             <Typography
                 gutterBottom
                 variant="h3"
                 style={{ fontWeight: "bold" }}
                 color="secondary"
             >
-                Python Programming Roadmap
+                Competitive Programming Roadmap
             </Typography>
             <Box
                 style={{
@@ -55,20 +55,39 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Introduction
+                            Choose a Programming Language
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Python 2 vs Python 3
+                            -- If Beginner:
+                            <br />
+                            &emsp;&emsp;--- Go with C++
                             <br />
                             <br />
-                            -- Python basic data-types
+                            -- If already have decent command over a language:
+                            <br />
+                            &emsp;&emsp;--- Go with that language. Don't switch.
+                            <br />
+                            &emsp;&emsp;--- Programming language hardly makes a
+                            difference.
                             <br />
                             <br />
-                            -- Variable assignment
+                            -- Preferred:
+                            <br />
+                            &emsp;&emsp;--- C++, Java, or Python
                             <br />
                             <br />
-                            -- Taking input
+                            <Button
+                                style={{
+                                    margin: 0,
+                                    color: "white",
+                                }}
+                                color="secondary"
+                                variant="outlined"
+                                href="/python"
+                            >
+                                Learn Python
+                            </Button>
                         </Typography>
                     </CardContent>
                 </Card>
@@ -92,28 +111,23 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Basic Data Structures in Python
+                            Learn the basics
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Strings
-                            <br />
-                            &emsp;&emsp;--- Introduction
-                            <br />
-                            &emsp;&emsp;--- Indexing and Slicing
-                            <br />
-                            &emsp;&emsp;--- String properties and methods
-                            <br />
-                            &emsp;&emsp;--- Print formatting with strings
+                            -- Understand Syntax and Basics
                             <br />
                             <br />
-                            -- Lists
+                            -- Loops and Statements
                             <br />
-                            &emsp;&emsp;--- List Slicing
                             <br />
-                            &emsp;&emsp;--- List properties and methods
+                            -- Scope and Functions
                             <br />
-                            &emsp;&emsp;--- Nested Lists
+                            <br />
+                            -- How the code works
+                            <br />
+                            <br />
+                            -- Concept of Time and Space Complexity
                         </Typography>
                     </CardContent>
                 </Card>
@@ -137,30 +151,23 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            More Data Structures
+                            Beginner Data Structures
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Dictionary
-                            <br />
-                            &emsp;&emsp;--- Dictionary methods
-                            <br />
-                            &emsp;&emsp;--- Nested Dictionaries
+                            -- Array
                             <br />
                             <br />
-                            -- Tuples
-                            <br />
-                            &emsp;&emsp;--- Tuple Methods
-                            <br />
-                            &emsp;&emsp;--- List vs Tuple
-                            <br />
-                            &emsp;&emsp;--- When to use Tuples
+                            -- Limked List
                             <br />
                             <br />
-                            -- Sets
+                            -- Stack
                             <br />
                             <br />
-                            -- Booleans
+                            -- Queue
+                            <br />
+                            <br />
+                            -- Heap/Priority Queue
                         </Typography>
                     </CardContent>
                 </Card>
@@ -184,20 +191,26 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Files
+                            Intermediate Data Structures
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Writing a File
+                            -- Tree
                             <br />
                             <br />
-                            -- Opening a File
+                            -- Binary Tree
                             <br />
                             <br />
-                            -- Appending a File
+                            -- Graphs
                             <br />
                             <br />
-                            -- Iterating through a File
+                            -- Union Find
+                            <br />
+                            <br />
+                            -- Trie
+                            <br />
+                            <br />
+                            -- Tree Map
                         </Typography>
                     </CardContent>
                 </Card>
@@ -221,14 +234,23 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Operators
+                            Advanced Data Structures
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Comparison Operators
+                            -- Segment Tree
                             <br />
                             <br />
-                            -- Chained Comparison Operators
+                            -- Binary Indexed Tree
+                            <br />
+                            <br />
+                            -- Suffix Array
+                            <br />
+                            <br />
+                            -- Sparse Table
+                            <br />
+                            <br />
+                            -- Range Tree
                         </Typography>
                     </CardContent>
                 </Card>
@@ -252,31 +274,20 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Control Statements
+                            Algorithms Basics
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- if-elif-else
+                            -- Reccurance Basics
                             <br />
                             <br />
-                            -- Loops
-                            <br />
-                            &emsp;&emsp;--- for loop
-                            <br />
-                            &emsp;&emsp;--- while loop
+                            -- Divide and Conquer
                             <br />
                             <br />
-                            -- Useful Operators
+                            -- Time Complexeity Fixation
                             <br />
-                            &emsp;&emsp;--- range
                             <br />
-                            &emsp;&emsp;--- enumerate
-                            <br />
-                            &emsp;&emsp;--- zip
-                            <br />
-                            &emsp;&emsp;--- in - not in
-                            <br />
-                            &emsp;&emsp;--- random
+                            -- Pseudocodes Basics
                         </Typography>
                     </CardContent>
                 </Card>
@@ -300,19 +311,17 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Comprehension
+                            Array/List Algorithms
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- List Comprehensions
+                            -- KMP Algorithm
                             <br />
                             <br />
-                            -- Nested List Comprehensions
+                            -- Kadane's Algorithm
                             <br />
                             <br />
-                            -- Dictionary Comprehensions
-                            <br />
-                            <br />
+                            -- Floyd's Cycle Detection Algorithm
                         </Typography>
                     </CardContent>
                 </Card>
@@ -336,25 +345,34 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Functions
+                            Searching and Sorting
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Defining - Returing - Calling
+                            -- Searching Algorithms
+                            <br />
+                            &emsp;&emsp;--- Linear Search
+                            <br />
+                            &emsp;&emsp;--- Binary Search
+                            <br />
+                            &emsp;&emsp;--- Jump Search
                             <br />
                             <br />
-                            -- args - kwargs
+                            -- Sorting Algorithms
                             <br />
+                            &emsp;&emsp;--- Bubble Sort
                             <br />
-                            -- Lambda
+                            &emsp;&emsp;--- Insertion Sort
                             <br />
+                            &emsp;&emsp;--- Merge Sort
                             <br />
-                            -- map
+                            &emsp;&emsp;--- Counting Sort
                             <br />
+                            &emsp;&emsp;--- Quick Sort
                             <br />
-                            -- filter
+                            &emsp;&emsp;--- Selection Sort
                             <br />
-                            <br />
+                            &emsp;&emsp;--- Heap Sort
                         </Typography>
                     </CardContent>
                 </Card>
@@ -378,25 +396,32 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Object Oriented Programming
+                            Graph Alogrithms
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Objects
+                            -- Depth-FIrst Search (DFS)
                             <br />
                             <br />
-                            -- Class
+                            -- Breadth-FIrst Search (BFS)
                             <br />
                             <br />
-                            -- Class Functions
+                            -- Weighted Graph
                             <br />
                             <br />
-                            -- Inheritance
+                            -- Floyd-Warshall Algorithm
                             <br />
                             <br />
-                            -- Polymorphism
+                            -- Dijkstra Algorithm
                             <br />
                             <br />
+                            -- Connectivity of Graph
+                            <br />
+                            <br />
+                            -- Spanning Tree and Minimum Spanning Tree (MST)
+                            <br />
+                            <br />
+                            -- Prim's and Kruskal's Algorithm
                         </Typography>
                     </CardContent>
                 </Card>
@@ -420,11 +445,20 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Modules and Packages
+                            String Algorithms
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Importing and using modules and packages
+                            -- KMP Algorithm
+                            <br />
+                            <br />
+                            -- Hamming Distance
+                            <br />
+                            <br />
+                            -- String Hashing
+                            <br />
+                            <br />
+                            -- Rabin Karp Algorithm
                         </Typography>
                     </CardContent>
                 </Card>
@@ -448,20 +482,23 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Error Handling
+                            Tree Alogrithms
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Syntax Errors
+                            -- Tree Traversals
+                            <br />
+                            &emsp;&emsp;--- Inorder
+                            <br />
+                            &emsp;&emsp;--- Preorder
+                            <br />
+                            &emsp;&emsp;--- Postorder
                             <br />
                             <br />
-                            -- Exceptions
+                            -- Binary Heap
                             <br />
                             <br />
-                            -- Handling Exceptions
-                            <br />
-                            <br />
-                            -- Raising Exceptions
+                            -- Binary Search Tree (BST) Algorithms
                         </Typography>
                     </CardContent>
                 </Card>
@@ -485,116 +522,23 @@ export default function SimpleCard() {
                 >
                     <CardContent>
                         <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Generators and Decorators
+                            Dynamic Programming
                         </Typography>
                         <Divider style={{ margin: 20 }} />
                         <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Generator Expressions
+                            -- Min/Max Path to Reach a Target
                             <br />
                             <br />
-                            -- Decorators
-                        </Typography>
-                    </CardContent>
-                </Card>
-                <NavigationRoundedIcon
-                    color="primary"
-                    style={{
-                        fontSize: 72,
-                        marginRight: 255,
-                        transform: "rotate(-180deg)",
-                    }}
-                />
-                <Card
-                    className={classes.root}
-                    variant="outlined"
-                    style={{
-                        borderColor: "#666",
-                        padding: 10,
-                        margin: 10,
-                        marginTop: 10,
-                    }}
-                >
-                    <CardContent>
-                        <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Advanced Python Modules
-                        </Typography>
-                        <Divider style={{ margin: 20 }} />
-                        <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Collections
+                            -- Distinct Ways
                             <br />
                             <br />
-                            -- Datetime
+                            -- Merging Intervals
                             <br />
                             <br />
-                            -- Math
+                            -- DP on Strings
                             <br />
                             <br />
-                            -- Random
-                            <br />
-                            <br />
-                            -- Regular Expression (re)
-                        </Typography>
-                    </CardContent>
-                </Card>
-                <NavigationRoundedIcon
-                    color="primary"
-                    style={{
-                        fontSize: 72,
-                        marginRight: 255,
-                        transform: "rotate(-180deg)",
-                    }}
-                />
-                <Card
-                    className={classes.root}
-                    variant="outlined"
-                    style={{
-                        borderColor: "#666",
-                        padding: 10,
-                        margin: 10,
-                        marginTop: 10,
-                    }}
-                >
-                    <CardContent>
-                        <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Web Scraping
-                        </Typography>
-                        <Divider style={{ margin: 20 }} />
-                        <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Requests
-                            <br />
-                            <br />
-                            -- BeautifulSoup (bs4)
-                            <br />
-                            <br />
-                            -- Selenium
-                        </Typography>
-                    </CardContent>
-                </Card>
-                <NavigationRoundedIcon
-                    color="primary"
-                    style={{
-                        fontSize: 72,
-                        marginRight: 255,
-                        transform: "rotate(-180deg)",
-                    }}
-                />
-                <Card
-                    className={classes.root}
-                    variant="outlined"
-                    style={{
-                        borderColor: "#666",
-                        padding: 10,
-                        margin: 10,
-                        marginTop: 10,
-                    }}
-                >
-                    <CardContent>
-                        <Typography style={{ fontWeight: "bold" }} variant="h4">
-                            Python GUI
-                        </Typography>
-                        <Divider style={{ margin: 20 }} />
-                        <Typography style={{ fontWeight: "bold" }} variant="p">
-                            -- Tkinter
+                            -- Decision Making
                         </Typography>
                     </CardContent>
                 </Card>

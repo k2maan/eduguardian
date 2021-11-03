@@ -7,6 +7,7 @@ import Home from "./components/pages/home/Home"
 import Resources from "./components/pages/resources/Resources"
 import Roadmaps from "./components/roadmaps/Roadmaps"
 import Python from "./components/roadmaps/roadmapComponents/Python"
+import CP from "./components/roadmaps/roadmapComponents/CP"
 const useStyles = makeStyles((theme) => ({
     // add some styles
 }))
@@ -24,6 +25,7 @@ function App() {
                         <Route exact path="/roadmaps" component={Roadmaps} />
                         {/* Roadmaps must be defined here */}
                         <Route exact path="/python" component={Python} />
+                        <Route exact path="/cp" component={CP} />
                     </Switch>
                 </Container>
             </ThemeProvider>

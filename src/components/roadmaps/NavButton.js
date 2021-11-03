@@ -10,7 +10,7 @@ const NavButton = (props) => {
                 style={{ fontWeight: "bold" }}
                 color="secondary"
                 component={Link}
-                to="/python"
+                to={props.url}
             >
                 {props.btnName}
             </Typography>
