@@ -10,7 +10,6 @@ const NavBar = () => {
                     <Typography color="textPrimary" style={{ flexGrow: 1 }}>
                         <Typography
                             style={{
-                                fontWeight: "bold",
                                 fontSize: 32,
                                 color: "#333",
                                 textDecoration: "none",

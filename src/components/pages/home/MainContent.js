@@ -1,6 +1,6 @@
 import React from "react"
 import { Typography, Box, Divider } from "@material-ui/core"
-import { Button, makeStyles } from "@material-ui/core"
+import { Button } from "@material-ui/core"
 
 const MainContent = () => {
     return (

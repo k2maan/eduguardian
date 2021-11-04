@@ -6,8 +6,6 @@ import CardContent from "@material-ui/core/CardContent"
 import CardMedia from "@material-ui/core/CardMedia"
 import Typography from "@material-ui/core/Typography"
 import { Box, Grid } from "@material-ui/core"
-import { Route } from "react-router"
-import { Switch } from "react-router-dom"
 import NavButton from "./NavButton"
 
 const useStyles = makeStyles({

@@ -1,7 +1,6 @@
 import React from "react"
 import { Typography, Box, Divider } from "@material-ui/core"
-import { Button, makeStyles } from "@material-ui/core"
-import { Grid, Card } from "@material-ui/core"
+import { Grid, makeStyles } from "@material-ui/core"
 const useStyles = makeStyles((theme) => ({
     root: {
         minWidth: "100%",

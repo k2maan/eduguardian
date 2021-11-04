@@ -1,5 +1,5 @@
 import { Container, Box, CssBaseline } from "@material-ui/core"
-import { ThemeProvider, makeStyles } from "@material-ui/core/styles"
+import { ThemeProvider } from "@material-ui/core/styles"
 import theme from "./theme"
 import NavBar from "./components/layout/NavBar"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
@@ -13,9 +13,6 @@ import Backend from "./components/roadmaps/roadmapComponents/Backend"
 
 import Mobile from "./components/pages/home/Mobile"
 import { useState, useEffect } from "react"
-const useStyles = makeStyles((theme) => ({
-    // add some styles
-}))
 
 function App() {
     const [width, setWidth] = useState(window.innerWidth)
