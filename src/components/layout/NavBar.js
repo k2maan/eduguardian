@@ -14,6 +14,8 @@ const NavBar = () => {
                                 fontSize: 32,
                                 color: "#333",
                                 textDecoration: "none",
+                                fontWeight: "bold",
+                                fontFamily: "Arial",
                             }}
                             component={Link}
                             to="/"

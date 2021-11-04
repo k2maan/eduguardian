@@ -8,6 +8,9 @@ import Resources from "./components/pages/resources/Resources"
 import Roadmaps from "./components/roadmaps/Roadmaps"
 import Python from "./components/roadmaps/roadmapComponents/Python"
 import CP from "./components/roadmaps/roadmapComponents/CP"
+import Frontend from "./components/roadmaps/roadmapComponents/Frontend"
+import Backend from "./components/roadmaps/roadmapComponents/Backend"
+
 import Mobile from "./components/pages/home/Mobile"
 import { useState, useEffect } from "react"
 const useStyles = makeStyles((theme) => ({
@@ -19,7 +22,9 @@ function App() {
     const breakpoint = 1200
 
     useEffect(() => {
-        window.addEventListener("resize", () => setWidth(window.innerWidth))
+        const handleWindowResize = () => setWidth(window.innerWidth)
+        window.addEventListener("resize", handleWindowResize)
+        return () => window.removeEventListener("resize", handleWindowResize)
     }, [])
     return width > breakpoint ? (
         <div>
@@ -43,6 +48,12 @@ function App() {
                             {/* Roadmaps must be defined here */}
                             <Route exact path="/python" component={Python} />
                             <Route exact path="/cp" component={CP} />
+                            <Route
+                                exact
+                                path="/frontend"
+                                component={Frontend}
+                            />
+                            <Route exact path="/backend" component={Backend} />
                         </Switch>
                     </Container>
                 </ThemeProvider>

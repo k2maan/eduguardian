@@ -8,7 +8,10 @@ const MainContent = () => {
             <Typography
                 color="secondary"
                 variant="h1"
-                style={{ fontWeight: "bold" }}
+                style={{
+                    fontWeight: "bold",
+                    color: "#29C7AC",
+                }}
             >
                 EDUGUARDIAN
             </Typography>

@@ -8,9 +8,6 @@ import Typography from "@material-ui/core/Typography"
 import { Box, Grid } from "@material-ui/core"
 import { Route } from "react-router"
 import { Switch } from "react-router-dom"
-// Roadmap pages
-import Python from "./roadmapComponents/Python"
-import CP from "./roadmapComponents/CP"
 import NavButton from "./NavButton"
 
 const useStyles = makeStyles({
@@ -133,6 +130,49 @@ export default function Roadmaps() {
                                 <CardMedia
                                     component="img"
                                     height="190"
+                                    image="https://cdn.august.com.au/wp-content/uploads/2015/04/Allan_Get-Web-Developer-Savvy_header.png"
+                                />
+                                <CardContent>
+                                    <Typography
+                                        gutterBottom
+                                        variant="h6"
+                                        style={{ fontWeight: "bold" }}
+                                        color="secondary"
+                                    >
+                                        <NavButton
+                                            btnName="Frontend Dev Roadmap"
+                                            url="/frontend"
+                                        />
+                                    </Typography>
+                                    <Typography
+                                        variant="body2"
+                                        color="textSecondary"
+                                        component="p"
+                                    >
+                                        Explore frontend web development, one of
+                                        the most in-demand skill a fresher can
+                                        learn. Learn basic to advanced
+                                        technologies and languages like HTML,
+                                        CSS, JS, React, and more.
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card
+                            variant="outlined"
+                            style={{
+                                borderColor: "#666",
+                                padding: 10,
+                                margin: 10,
+                            }}
+                            className={classes.root}
+                        >
+                            <CardActionArea>
+                                <CardMedia
+                                    component="img"
+                                    height="190"
                                     image="https://www.9tutorials.org/wp-content/uploads/2019/02/1002676_3c6e_2.jpg"
                                 />
                                 <CardContent>
@@ -142,19 +182,21 @@ export default function Roadmaps() {
                                         style={{ fontWeight: "bold" }}
                                         color="secondary"
                                     >
-                                        Web Dev (Coming Soon)
+                                        <NavButton
+                                            btnName="Backend Dev Roadmap"
+                                            url="/backend"
+                                        />
                                     </Typography>
                                     <Typography
                                         variant="body2"
                                         color="textSecondary"
                                         component="p"
                                     >
-                                        Explore web development, the most
-                                        in-demand skill a fresher can learn.
-                                        Learn basic to advanced technologies and
-                                        languages and see how simple web pages
-                                        as well as complex applications are
-                                        made.
+                                        Explore frontend web development, one of
+                                        the most in-demand skill a fresher can
+                                        learn. Learn basic to advanced
+                                        technologies and languages like HTML,
+                                        CSS, JS, React, and more.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
