@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import Card from "@material-ui/core/Card"
 import CardContent from "@material-ui/core/CardContent"
 import Divider from "@material-ui/core/Divider"
-import NavigationRoundedIcon from "@material-ui/icons/NavigationRounded"
+import NavigationIcon from "@material-ui/icons/Navigation"
 const useStyles = makeStyles({
     root: {
         // minWidth: 300,
@@ -91,7 +91,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -131,7 +131,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -171,7 +171,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -214,7 +214,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -254,7 +254,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -291,7 +291,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -325,7 +325,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -376,7 +376,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -425,7 +425,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -462,7 +462,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
@@ -502,7 +502,7 @@ export default function SimpleCard() {
                         </Typography>
                     </CardContent>
                 </Card>
-                <NavigationRoundedIcon
+                <NavigationIcon
                     color="primary"
                     style={{
                         fontSize: 72,
