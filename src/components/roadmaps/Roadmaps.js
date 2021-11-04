@@ -58,13 +58,6 @@ export default function Roadmaps() {
                                             btnName="Python Programming"
                                             url="/python"
                                         />
-                                        <Switch>
-                                            <Route
-                                                path="/python"
-                                                exact
-                                                component={Python}
-                                            />
-                                        </Switch>
                                     </Typography>
                                     <Typography
                                         variant="body2"
@@ -93,11 +86,7 @@ export default function Roadmaps() {
                             }}
                             className={classes.root}
                         >
-                            <CardActionArea
-                                target="_blank"
-                                rel="noreferrer"
-                                href="https://whimsical.com/cp-roadmap-MFNzvbj532mVrTTS8kthdD"
-                            >
+                            <CardActionArea>
                                 <CardMedia
                                     component="img"
                                     height="190"
@@ -114,13 +103,6 @@ export default function Roadmaps() {
                                             btnName="Competitive Programming"
                                             url="/cp"
                                         />
-                                        <Switch>
-                                            <Route
-                                                path="/cp"
-                                                exact
-                                                component={CP}
-                                            />
-                                        </Switch>
                                     </Typography>
                                     <Typography
                                         variant="body2"
@@ -147,11 +129,7 @@ export default function Roadmaps() {
                             }}
                             className={classes.root}
                         >
-                            <CardActionArea
-                                target="_blank"
-                                rel="noreferrer"
-                                // href="https://www.google.com"
-                            >
+                            <CardActionArea>
                                 <CardMedia
                                     component="img"
                                     height="190"
@@ -164,7 +142,7 @@ export default function Roadmaps() {
                                         style={{ fontWeight: "bold" }}
                                         color="secondary"
                                     >
-                                        Web Development
+                                        Web Dev (Coming Soon)
                                     </Typography>
                                     <Typography
                                         variant="body2"
@@ -205,7 +183,7 @@ export default function Roadmaps() {
                                         style={{ fontWeight: "bold" }}
                                         color="secondary"
                                     >
-                                        Data Science
+                                        Data Science (Coming Soon)
                                     </Typography>
                                     <Typography
                                         variant="body2"
@@ -246,7 +224,7 @@ export default function Roadmaps() {
                                         style={{ fontWeight: "bold" }}
                                         color="secondary"
                                     >
-                                        Android Development
+                                        Android Dev (Coming Soon)
                                     </Typography>
                                     <Typography
                                         variant="body2"

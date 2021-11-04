@@ -1,10 +1,10 @@
 import React from "react"
 import { Typography, Box, Divider } from "@material-ui/core"
 import { Button, makeStyles } from "@material-ui/core"
-import { Link } from "@material-ui/core"
+
 const MainContent = () => {
     return (
-        <Box style={{ width: 800 }}>
+        <Box style={{ width: 700 }}>
             <Typography
                 color="secondary"
                 variant="h1"
@@ -15,7 +15,7 @@ const MainContent = () => {
             <Typography variant="h4" style={{ fontWeight: "bold" }}>
                 The content aggregator you wish you had before!
             </Typography>
-            <Divider style={{ marginTop: 20, marginBottom: 20 }} />
+            <Divider style={{ marginTop: 20, marginBottom: 20, width: 500 }} />
             <Typography style={{ fontSize: 18 }}>
                 EduGuardian hosts resources, covering several domains, all at
                 one place, and boasts of offering on-point roadmaps to learn
@@ -23,7 +23,7 @@ const MainContent = () => {
                 content from the best sources, allowing learners to study and
                 excel as Devs!
             </Typography>
-            <Divider style={{ marginTop: 20, marginBottom: 20 }} />
+            <Divider style={{ marginTop: 20, marginBottom: 20, width: 600 }} />
 
             <Box
                 style={{

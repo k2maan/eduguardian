@@ -48,7 +48,7 @@ const NavBar = () => {
                         }}
                         variant="outlined"
                         // for exrternal link, link does not work. use href only
-                        href="http://localhost:5500/CodePenCloneReactJS"
+                        href="https://k2maan.me/CodePenCloneReactJS/"
                         rel="noreferrer"
                         target="_blank"
                     >
