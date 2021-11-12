@@ -5,8 +5,21 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
     return (
         <div>
-            <AppBar color="primary">
-                <Toolbar style={{ marginLeft: 130, marginRight: 120 }}>
+            <AppBar
+                color="primary"
+                style={{
+                    minWidth: 1000,
+                }}
+            >
+                <Toolbar
+                    style={{
+                        paddingLeft: 155,
+                        paddingRight: 150,
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        display: "flex",
+                    }}
+                >
                     <Typography color="textPrimary" style={{ flexGrow: 1 }}>
                         <Typography
                             style={{

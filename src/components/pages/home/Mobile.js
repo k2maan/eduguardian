@@ -8,6 +8,8 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
+        padding: 0,
+        margin: 0,
     },
     box: {
         maxWidth: "80%",
@@ -29,23 +31,36 @@ const Mobile = () => {
         >
             <Box py={15} className={classes.box}>
                 <Typography
-                    // color="secondary"
+                    color="secondary"
                     variant="h4"
-                    style={{ fontWeight: "bold", color: "#29C7AC" }}
+                    style={{ fontWeight: "bold" }}
                 >
                     EDUGUARDIAN
                 </Typography>
                 <Typography variant="h6" style={{ fontWeight: "bold" }}>
                     The content aggregator you wish you had before!
                 </Typography>
-                <Divider style={{ marginTop: 20, marginBottom: 20 }} />
-                <Typography variant="h6" style={{ color: "#eed202" }}>
+                <Divider
+                    style={{
+                        marginTop: 20,
+                        marginBottom: 20,
+                    }}
+                />
+                <Typography
+                    variant="h6"
+                    style={{ color: "#ff8800", fontWeight: "bold" }}
+                >
                     ⚠️ Ooops!
                     <br />
                     The website is currently unavailable on small screen
                     devices. Please switch to a laptop or dekstop.
                 </Typography>
-                <Divider style={{ marginTop: 20, marginBottom: 20 }} />
+                <Divider
+                    style={{
+                        marginTop: 20,
+                        marginBottom: 20,
+                    }}
+                />
             </Box>
         </Grid>
     )
