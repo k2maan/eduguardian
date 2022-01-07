@@ -171,7 +171,7 @@ export default function Roadmaps() {
                                 <CardMedia
                                     component="img"
                                     height="190"
-                                    image="https://www.9tutorials.org/wp-content/uploads/2019/02/1002676_3c6e_2.jpg"
+                                    image="https://miro.medium.com/max/1200/1*G48L33n3M7FXze_kturcyQ.jpeg"
                                 />
                                 <CardContent>
                                     <Typography

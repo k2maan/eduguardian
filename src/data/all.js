@@ -20,7 +20,7 @@ const allData = [
     {
         id: 3,
         imgPath:
-            "https://pbs.twimg.com/profile_images/1304985167476523008/QNHrwL2q.jpg",
+            "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png",
         name: "GeeksForGeeks",
         url: "https://geeksforgeeks.org",
         domain: "Data Structures and Algorithms",
